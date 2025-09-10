@@ -55,7 +55,11 @@ def alimentar1():
             decision1=str(input("digite si o no:"))
         if(decision1=="si"):
             mi_perro.alimentar()
-
+mi_perro.ladrar()
+mi_perro.saludar()
+concentir1()
+alimentar1()
+mi_perro.hacerfeliz()
 
 
 
