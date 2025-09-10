@@ -22,6 +22,13 @@ class Perro:
     def hacerfeliz(self):
         print(f"el perro {self.nombre} esta feliz porque ya lo alimentaron y lo concintieron")
 
+def obtener_datos():
+    eda=int(input("digite la edad del perro:"))
+    nom=str(input("digite el nombre del perro:"))
+    col=str(input("digite el color del perro:"))
+    return eda, nom, col
+eda, nom, col = obtener_datos()
+mi_perro=Perro(eda, nom, col)
 
 
 
