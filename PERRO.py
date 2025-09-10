@@ -31,4 +31,31 @@ eda, nom, col = obtener_datos()
 mi_perro=Perro(eda, nom, col)
 
 
+def concentir1():
+    print("desea concentir al perro ")
+    x=str(input("digite si o no:"))
+    if(x=="si"):
+        mi_perro.concentir()
+    elif(x=="no"):
+        print("pienselo")
+        while (x!="si"):
+            print("desea concentir al perro: ")
+            x=str(input("digite si o no:"))
+        if(x=="si"):
+            mi_perro.concentir()
+def alimentar1():
+    print("desea alimentar al perro ")
+    decision1=str(input("digite si o no:"))
+    if(decision1=="si"):
+        mi_perro.alimentar()
+    elif(decision1=="no"):
+        print("pienselo")
+        while (decision1!="si"):
+            print("desea alimentar al perro: ")
+            decision1=str(input("digite si o no:"))
+        if(decision1=="si"):
+            mi_perro.alimentar()
+
+
+
 
